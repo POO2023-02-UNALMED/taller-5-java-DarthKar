@@ -1,20 +1,20 @@
 package zooAnimales;
-import Gestion.Zona;
+import gestion.Zona;
 
 public class Animal {
 	private int totalAnimales;
 	private String nombre;
 	private int edad;
-	private String habitad;
+	private String habitat;
 	private String genero;
 	private Zona zona;
 	
 	public Animal() {
 	}
-	public Animal(String nombre, int edad, String habitad, String genero) {
+	public Animal(String nombre, int edad, String habitat, String genero) {
 		this.nombre = nombre;
 		this.edad = edad;
-		this.habitad = habitad;
+		this.habitat = habitat;
 		this.genero= genero;	
 	}
 	public String getNombre() {
@@ -36,11 +36,11 @@ public class Animal {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
-	public String getHabitad() {
-		return habitad;
+	public String getHabitat() {
+		return habitat;
 	}
-	public void setHabitad(String habitad) {
-		this.habitad = habitad;
+	public void setHabitat(String habitat) {
+		this.habitat = habitat;
 	}
 	public String getGenero() {
 		return genero;
@@ -63,7 +63,7 @@ public class Animal {
 	}
 	
 	public String toString() {
-		return "Mi nombre es"+this.getNombre() + ", tengo una edad de"+ this.getEdad()+", habito en"+ this.getHabitad() +" y mi genero"+ this.getGenero()+", la zona en la que me ubico es "+this.getZona()+", en el zoo";
+		return "Mi nombre es"+this.getNombre() + ", tengo una edad de"+ this.getEdad()+", habito en"+ this.getHabitat() +" y mi genero"+ this.getGenero()+", la zona en la que me ubico es "+this.getZona()+", en el zoo";
 		
 	}
 	

@@ -11,8 +11,8 @@ private static int cantidadAves=0;
 		super("",0,"","");
 		cantidadAves++;
 	}
-	public Ave(String nombre, int edad, String habitad, String genero) {
-        super(nombre, edad, habitad, genero);
+	public Ave(String nombre, int edad, String habitat, String genero) {
+        super(nombre, edad, habitat, genero);
         cantidadAves++;
 	}
 	public Ave(String nombre, int edad, String habitad, String genero, String colorPlumas) {

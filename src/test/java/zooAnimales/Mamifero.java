@@ -63,7 +63,7 @@ private static int cantidadMamiferos = 0;
 		Mamifero.listado = listado;
 	}
 
-	public boolean getPelaje() {
+	public boolean isPelaje() {
 		return pelaje;
 	}
 

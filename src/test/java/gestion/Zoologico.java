@@ -1,4 +1,4 @@
-package Gestion;
+package gestion;
 import java.util.ArrayList;
 public class Zoologico {
 	private String nombre;
@@ -6,7 +6,9 @@ public class Zoologico {
 	private ArrayList<Zona> zonas;
 	
 	public Zoologico() {
-		
+		 this.nombre = "";
+	     this.ubicacion = "";
+	     this.zonas = new ArrayList<Zona>();
 	}
 	public Zoologico(String nombre, String ubicacion) {
 	        this.nombre = nombre;
@@ -37,7 +39,7 @@ public class Zoologico {
 	public void setUbicacion(String ubicacion) {
 		this.ubicacion = ubicacion;
 	}
-	public ArrayList<Zona> getZonas() {
+	public ArrayList<Zona> getZona() {
 		return zonas;
 	}
 	public void setZonas(ArrayList<Zona> zonas) {
