@@ -11,27 +11,32 @@ public class Pez extends Animal{
 	
 	public Pez() {
 		super("",0,"","");
+		 listado.add(this);
 		cantidadPeces++;
 	}	
 	public Pez(String nombre, int edad, String habitad, String genero, String colorEscamas, int cantidadAletas) {
 		super(nombre,edad,habitad,genero);
 		this.setColorEscamas(colorEscamas);
 		this.setCantidadAletas(cantidadAletas);
+		 listado.add(this);
 		cantidadPeces++;
 		
 	}
 	public Pez(String nombre, int edad, String habitad, String genero, String colorEscamas) {
 		super(nombre,edad,habitad,genero);
 		this.setColorEscamas(colorEscamas);
+		 listado.add(this);
 		cantidadPeces++;
 	}
 	public Pez(String nombre, int edad, String habitad, String genero,int cantidadAletas) {
 		super(nombre,edad,habitad,genero);
 		this.setCantidadAletas(cantidadAletas);
+		 listado.add(this);
 		cantidadPeces++;
 	}
 	public Pez(String nombre, int edad, String habitad, String genero) {
 		super(nombre, edad, habitad, genero);
+		 listado.add(this);
 		cantidadPeces++;
 	}
 	

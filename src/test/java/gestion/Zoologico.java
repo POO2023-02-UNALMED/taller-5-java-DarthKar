@@ -18,6 +18,7 @@ public class Zoologico {
 	
 	public void agregarZonas(Zona zona) {
 		zonas.add(zona);
+		zona.setZoo(this);
 	}
 	public int cantidadTotalAnimales() {
 		int cantidadTotalAnimales = 0;

@@ -10,26 +10,31 @@ public class Reptil extends Animal{
 	private static int cantidadReptiles=0;
 	public Reptil() {
 		super("",0,"","");
+		 listado.add(this);
 		cantidadReptiles++;
 	}
 	public Reptil(String nombre, int edad, String habitad, String genero, String colorEscamas, int largoCola) {
         super(nombre, edad, habitad, genero);
         this.colorEscamas=colorEscamas;
         this.largoCola=largoCola;
+        listado.add(this);
         cantidadReptiles++;
 	}
 	public Reptil(String nombre, int edad, String habitad, String genero, String colorEscamas) {
         super(nombre, edad, habitad, genero);
         this.colorEscamas=colorEscamas;
+        listado.add(this);
         cantidadReptiles++;
 	}
 	public Reptil(String nombre, int edad, String habitad, String genero, int largoCola) {
         super(nombre, edad, habitad, genero);
         this.largoCola=largoCola;
+        listado.add(this);
         cantidadReptiles++;
     }
 	public Reptil(String nombre, int edad, String habitad, String genero) {
         super(nombre, edad, habitad, genero);
+        listado.add(this);
         cantidadReptiles++;
 	}
 	public static Reptil crearIguana(String nombre, int edad, String genero) {
