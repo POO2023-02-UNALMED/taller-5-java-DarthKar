@@ -6,7 +6,10 @@ public class Ave extends Animal{
 	public static int aguilas=0;
 	private String colorPlumas;
 	
-private static int cantidadAves=0;
+	private static int cantidadAves=0;
+	static {
+	    listado = new ArrayList<Ave>();
+	}
 	public Ave() {
 		super("",0,"","");
 		 listado.add(this);

@@ -8,6 +8,9 @@ public class Reptil extends Animal{
 	private int largoCola;
 	
 	private static int cantidadReptiles=0;
+	static {
+	    listado = new ArrayList<Reptil>();
+	}
 	public Reptil() {
 		super("",0,"","");
 		 listado.add(this);
