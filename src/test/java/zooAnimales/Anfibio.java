@@ -7,10 +7,13 @@ public class Anfibio extends Animal{
 	private String colorPiel;
 	private boolean venenoso;
 	
+	static {
+	    listado = new ArrayList<Anfibio>();
+	}
 	private static int cantidadAnfibios=0;
 	
 	public Anfibio() {
-		super("",0,"","");
+		super();
 		listado.add(this);
 		cantidadAnfibios++;
 	}
