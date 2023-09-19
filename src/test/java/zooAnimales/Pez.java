@@ -8,7 +8,7 @@ public class Pez extends Animal{
 	private int cantidadAletas;
 	
 	private static int cantidadPeces=0;
-	
+	//que chimbada con esto
 	public Pez() {
 		super("",0,"","");
 		 listado.add(this);
