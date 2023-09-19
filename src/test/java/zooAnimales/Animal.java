@@ -66,8 +66,9 @@ public class Animal {
 	}
 	
 	public String toString() {
-		return "Mi nombre es"+this.getNombre() + ", tengo una edad de"+ this.getEdad()+", habito en"+ this.getHabitat() +" y mi genero"+ this.getGenero()+", la zona en la que me ubico es "+this.getZona()+", en el zoo";
-		
+	    return "Mi nombre es " + this.getNombre() + ", tengo una edad de " + this.getEdad() + 
+	           ", habito en " + this.getHabitat() + " y mi genero es " + this.getGenero();
 	}
+
 	
 }
